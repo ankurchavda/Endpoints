@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-microservice",
+  "version": "1.0.0",
+  "description": "A micro service containing endpoints for login, json patching and thumbnail creation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-jwt": "^5.3.0",
+    "jimp": "^0.2.28",
+    "jsonpatch": "^3.0.1",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "*",
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankurchavda/Nodejsmircoservice.git"
+  },
+  "author": "Ankur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankurchavda/Nodejsmircoservice/issues"
+  },
+  "homepage": "https://github.com/ankurchavda/Nodejsmircoservice#readme"
+}
